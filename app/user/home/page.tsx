@@ -1,3 +1,5 @@
-export default function userHomePage () {
-    <h1>Bem vindo a home</h1>
+export default function UserHomePage () {
+    return (
+        <h1>Bem vindo a home</h1>
+    );
 }

@@ -1,7 +1,7 @@
 export default function TeacherHeader() {
   return (
     <header>
-      <h1>Área do Professor</h1>
+      <h1>header do Professor</h1>
     </header>
   )
 }
