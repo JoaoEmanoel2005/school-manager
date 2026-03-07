@@ -13,13 +13,12 @@ export default function UserLayout({
   const isLoginPage = pathname.endsWith("/login");
 
   return (
-    <>
-      {/* Só renderiza se NÃO for a página de login */}
+    <div className="flex flex-col min-h-screen">
       {!isLoginPage && <UserHeader />}
-      <main className={!isLoginPage ? "min-h-screen bg-slate-50" : ""}>
-        {children}
-      </main>
+
+      <main className="flex-grow bg-slate-50">{children}</main>
+
       {!isLoginPage && <UserFooter />}
-    </>
+    </div>
   );
 }

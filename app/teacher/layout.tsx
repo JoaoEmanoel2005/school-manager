@@ -12,14 +12,13 @@ export default function TeacherLayout({
   const pathname = usePathname();
   const isLoginPage = pathname.endsWith("/login");
 
-  return (
-    <>
-      {/* Só renderiza se NÃO for a página de login */}
-      {!isLoginPage && <TeacherHeader />}
-      <main className={!isLoginPage ? "min-h-screen bg-slate-50" : ""}>
-        {children}
-      </main>
-      {!isLoginPage && <TeacherFooter />}
-    </>
-  );
+   return (
+      <div className="flex flex-col min-h-screen">
+        {!isLoginPage && <TeacherHeader />}
+  
+        <main className="flex-grow bg-slate-50">{children}</main>
+  
+        {!isLoginPage && <TeacherFooter />}
+      </div>
+    );
 }
