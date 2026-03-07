@@ -57,3 +57,35 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento local:
 ```bash
 git clone [https://github.com/seu-usuario/SchoolManager.git](https://github.com/seu-usuario/SchoolManager.git)
 cd SchoolManager
+```
+
+2. Instale as dependências
+Bash
+
+npm install
+# ou
+yarn install
+
+3. Configure as Variáveis de Ambiente
+
+Crie um arquivo .env na raiz do projeto e adicione sua URL de conexão com o banco:
+Snippet de código
+
+DATABASE_URL="postgresql://usuario:senha@localhost:5432/schoolmanager?schema=public"
+NEXTAUTH_SECRET="sua_chave_secreta_aqui"
+
+4. Configure o Banco de Dados (Prisma)
+
+Execute as migrações para criar as tabelas no PostgreSQL:
+Bash
+
+npx prisma migrate dev
+
+5. Inicie o Servidor
+Bash
+
+npm run dev
+
+Acesse http://localhost:3000 no seu navegador.
+
+Desenvolvido por Joao Emanoel - Conecte-se comigo no LinkedIn
