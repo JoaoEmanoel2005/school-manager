@@ -88,4 +88,4 @@ npm run dev
 
 Acesse http://localhost:3000 no seu navegador.
 
-Desenvolvido por Joao Emanoel - Conecte-se comigo no LinkedIn
+* **Desenvolvido por Joao Emanoel - Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-emanoell-6b2b66268/)**
