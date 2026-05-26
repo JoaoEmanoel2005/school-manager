@@ -16,7 +16,7 @@ export default function Home() {
 
           {/* Botao User/aluno */}
           <Link
-            href="/user/login"
+            href="/student/login"
           className="group flex flex-col items-center p-10 bg-white rounded-3xl border border-slate-200 shadow-sm hover:border-blue-500 hover:shadow-xl hover:shadow-blue-500/10 transition-all duration-300"
           >
             <div className="p-4 bg-blue-50 rounded-2xl text-blue-600 group-hover:bg-blue-500 group-hover:text-white transition-colors duration-300">

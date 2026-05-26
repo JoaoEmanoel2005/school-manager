@@ -1,7 +1,7 @@
 import React from "react";
 import { Bell, Search, User, LogOut, BookOpen } from "lucide-react";
 
-export default function UserHeader() {
+export default function Header() {
   return (
     <header className="flex h-16 w-full items-center justify-between border-b border-slate-200 bg-white px-6">
       {/* 1. Logo / Nome do Projeto */}

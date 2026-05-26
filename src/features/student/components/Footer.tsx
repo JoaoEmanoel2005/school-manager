@@ -1,7 +1,7 @@
 import React from "react";
 import { Github, LifeBuoy, ShieldCheck } from "lucide-react";
 
-export default function TeacherFooter() {
+export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
