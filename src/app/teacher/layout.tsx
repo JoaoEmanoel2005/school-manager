@@ -1,8 +1,8 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import Header from "@/src/features/teacher/components/Header";
-import Footer from "@/src/features/teacher/components/Footer";
+import Header from "@/features/teacher/components/Header";
+import Footer from "@/features/teacher/components/Footer";
 
 
 export default function TeacherLayout({
