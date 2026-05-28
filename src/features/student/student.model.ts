@@ -1,4 +1,3 @@
-// src/features/student/student.model.ts
 import { UserModel, UserProps, usersDatabase } from "../user/user.model";
 
 // Propriedades exclusivas do estudante + propriedades do usuário base
